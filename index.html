@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Код Мастер - Компьютерная помощь</title>
+    
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Наш CSS -->
+    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="favicon".ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-text">
+                <span class="logo-code">&lt;</span>
+                <span class="logo-text">Код Мастер</span>
+                <span class="logo-code">/&gt;</span>
+            </div>
+            <div class="preloader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-code">&lt;</span>
+                    <span class="logo-text">Код Мастер</span>
+                    <span class="logo-code">/&gt;</span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Главная</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#about" class="nav-link">О компании</a></li>
+                    <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+                
+                <div class="nav-phone">
+                    <a href="tel:+79991234567" class="phone-link">
+                        <i class="fas fa-phone-alt"></i>
+                        +7 (999) 123-45-67
+                    </a>
+                </div>
+                
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Профессиональный <br>
+                    <span class="gradient-text">ремонт компьютеров</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Ремонт, настройка и обслуживание компьютеров и ноутбуков. 
+                    Выезд мастера за 1 час. Бесплатная диагностика.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#contacts" class="btn btn-primary">
+                        <i class="fas fa-wrench"></i>
+                        Вызвать мастера
+                    </a>
+                    <a href="#services" class="btn btn-outline">
+                        Наши услуги
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Лет опыта</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1500+</span>
+                        <span class="stat-label">Клиентов</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Час выезд</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="tech-icons">
+                        <i class="fas fa-microchip"></i>
+                        <i class="fas fa-laptop-code"></i>
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Что мы делаем</span>
+                <h2 class="section-title">Наши <span class="gradient-text">услуги</span></h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Установка и настройка ПО -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Установка и настройка ПО</h3>
+                    <p>Установка программ, офисных пакетов, драйверов и профессионального софта</p>
+                    <div class="card-price">от 500 ₽</div>
+                </div>
+
+                <!-- Антивирусы -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>Антивирусная защита</h3>
+                    <p>Установка и настройка антивирусов, комплексная защита от угроз</p>
+                    <div class="card-price">от 800 ₽</div>
+                </div>
+
+                <!-- Установка ОС -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fab fa-windows"></i>
+                    </div>
+                    <h3>Установка Windows/Linux</h3>
+                    <p>Чистая установка операционной системы, настройка драйверов</p>
+                    <div class="card-price">от 800 ₽</div>
+                </div>
+
+                <!-- Удаление вирусов -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Удаление вирусов</h3>
+                    <p>Лечение от вирусов, удаление рекламного ПО, восстановление системы</p>
+                    <div class="card-price">от 1000 ₽</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О компании -->
+    <section id="about" class="advantages">
+        <div class="container">
+            <div class="advantages-wrapper">
+                <div class="advantages-content">
+                    <span class="section-subtitle">О компании</span>
+                    <h2 class="section-title">Код Мастер — <span class="gradient-text">ваш надежный помощник</span></h2>
+                    
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.6;">
+                        Мы занимаемся ремонтом и обслуживанием компьютерной техники с 2019 года. 
+                        За это время помогли более 1500 клиентам решить проблемы с компьютерами и ноутбуками.
+                    </p>
+                    
+                    <div class="advantages-list">
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="advantage-text">
+                                <h4>Быстрый выезд</h4>
+                                <p>Приедем в течение часа после звонка</p>
+                            </div>
+                        </div>
+
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="advantage-text">
+                                <h4>Бесплатная диагностика</h4>
+                                <p>Определим проблему без оплаты</p>
+                            </div>
+                        </div>
+
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="advantage-text">
+                                <h4>Гарантия 1 год</h4>
+                                <p>На все работы и запчасти</p>
+                            </div>
+                        </div>
+
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="advantage-text">
+                                <h4>Ремонт на дому</h4>
+                                <p>Вам не нужно везти технику в сервис</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="advantages-image">
+                    <div class="image-grid"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Нам доверяют</span>
+                <h2 class="section-title">Отзывы <span class="gradient-text">клиентов</span></h2>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">А</div>
+                        <div class="review-info">
+                            <h4>Алексей Петров</h4>
+                            <div class="review-date">15 марта 2024</div>
+                        </div>
+                    </div>
+                    <p class="review-text">Быстро приехали, нашли проблему, установили новый софт. Всё работает отлично. Спасибо!</p>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">Е</div>
+                        <div class="review-info">
+                            <h4>Елена Смирнова</h4>
+                            <div class="review-date">10 марта 2024</div>
+                        </div>
+                    </div>
+                    <p class="review-text">Помогли с установкой Windows и настройкой программ. Всё объяснили, показали. Очень довольна!</p>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">Д</div>
+                        <div class="review-info">
+                            <h4>Дмитрий Иванов</h4>
+                            <div class="review-date">5 марта 2024</div>
+                        </div>
+                    </div>
+                    <p class="review-text">Удалили вирусы, почистили систему. Компьютер стал работать намного быстрее. Спасибо за работу!</p>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-wrapper">
+                <h2 class="cta-title">Нужна помощь?</h2>
+                <p class="cta-text">Оставьте заявку и мы перезвоним через 5 минут</p>
+                <form class="cta-form">
+                    <input type="text" placeholder="+7 (___) ___-__-__" class="phone-input">
+                    <button type="submit" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i>
+                        Отправить
+                    </button>
+                </form>
+                <div class="cta-note">
+                    <i class="fas fa-shield-alt"></i>
+                    Ваши данные в безопасности
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты и футер -->
+    <footer id="contacts" class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-info">
+                    <div class="logo">
+                        <span class="logo-code">&lt;</span>
+                        <span class="logo-text">Код Мастер</span>
+                        <span class="logo-code">/&gt;</span>
+                    </div>
+                    <p>Профессиональный ремонт и обслуживание компьютерной техники</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Услуги</h4>
+                    <ul>
+                        <li><a href="#">Установка и настройка ПО</a></li>
+                        <li><a href="#">Антивирусная защита</a></li>
+                        <li><a href="#">Установка Windows/Linux</a></li>
+                        <li><a href="#">Удаление вирусов</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contacts">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> codemasterhelp@mail.ru</p>
+                    <p><i class="fas fa-clock"></i> Ежедневно 10:00 - 20:00</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Код Мастер</p>
+                <a href="#" class="privacy-policy">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Кнопка наверх -->
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Наш JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
